@@ -1,0 +1,17 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Swaying Material"
+config/description="A dynamic shader that adds a smooth sway effect to 3D models. You can control the sway amount, speed, direction, and duration. It also allows full material control over properties such as albedo color, metallic, roughness, specular, and opacity, making it ideal for creating flexible, animated surfaces with realistic material properties."
+config/version="1.0.0"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="uid://bwqpijft1e68d"
